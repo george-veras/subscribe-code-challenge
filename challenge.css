@@ -1,0 +1,77 @@
+body {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  min-height:100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 327px;
+}
+
+.input-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-box {
+  width: 366px;
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+  font-size: 12px;
+  border-radius: 4px;
+  border: 1px solid #000000;
+}
+
+.button {
+  width: 372px;
+  margin-top: 10px;
+  background-color: #ffffff;
+  border: 1px solid #0c0ce6;
+  color: #0c0ce6;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.feedback-row {
+  margin-top: 10px;
+}
+
+.resultPanel {
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  color: #020101;
+  background-color: #cecbcb;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #000000;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.resultPanel > span:not(:first-child) {
+  margin-top: 5px;
+}
+
+.errorPanel {
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  color: #ffffff;
+  background-color: #f74040;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #000000;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
